@@ -1,0 +1,83 @@
+.learning {
+    width: 100%;
+    height: 500px;
+    background-color: rgb(0, 180, 180);
+}
+
+body {
+    overflow-y: hidden;
+}
+
+.hover {
+    width: 70px;
+    height: 30px;
+    font-size: 15px;
+    background-color: #fff;
+    padding: 10px auto;
+    margin: 20px 0 0 20px;
+
+}
+
+.story1 {
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top: 20%;
+    left: 200px;
+    z-index: 3;
+    box-shadow: 0 5px 10px grey;
+    transform: translateY(250%);
+    visibility: hidden;
+    transition: 1s;
+}
+
+.story2 {
+ 
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top: 20%;
+    left: 350px;
+    z-index: 2;
+    box-shadow: 0 5px 10px grey;
+    transform: translateY(250%);
+    visibility: hidden;
+}
+
+.story3 {
+  
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top: 20%;
+    left: 500px;
+    z-index: 1;
+    box-shadow: 0 5px 10px grey;
+    transform: translateY(150%);
+    visibility: hidden;
+}
+
+.story4 {
+  
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top: 20%;
+    left: 650px;
+    z-index: 0;
+    box-shadow: 0 0  20px grey;
+    transform: translateY(150%);
+   
+}
+
+.buth:hover .story1 {
+    transform: rotate(30deg);
+    visibility: visible;
+    cursor: pointer;
+}
+
+button:hover .story {
+    transform: rotate(30deg);
+    visibility: visible;
+    cursor: pointer;
+}

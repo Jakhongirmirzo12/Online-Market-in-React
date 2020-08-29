@@ -1,0 +1,46 @@
+.header{
+    width: 100%;
+    height: 50px;
+    background-color: #201e1e;
+    padding: 10px;;
+
+}
+.Log {
+    margin-left: 85%;
+    color: rgb(253, 252, 252);
+    margin-top: 6px;
+    position: absolute;
+}
+
+.search {
+    width: 100%;
+    height: 100%;
+    outline: none;
+    border: none;
+    font-size: 18px;
+    border: 1px solid transparent;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    padding-left: 10px;
+ 
+}
+
+.SearchInput {
+    width: 480px;
+    height: 40px;
+    background-color: #fff;
+    margin: 8px 0 0 20%;
+    border-radius: 5px;
+    position: relative;
+}
+
+
+.searchIcon {
+    padding: 0 12px;
+    height: 40px;
+    position: absolute;
+    right: -40px;
+    background-color: #f3f3f3;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}

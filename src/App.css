@@ -1,0 +1,13 @@
+body{
+  background-color: rgb(187, 194, 187);
+}
+.App1 {
+  margin-top:8px;
+  background-color: rgb(236, 29, 29);
+  width: 100%;
+  height: 55px;
+}
+h1{
+  text-align: center;
+}
+

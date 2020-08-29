@@ -1,0 +1,70 @@
+.Working {
+    width: 300px;
+    height: 150px;
+    background-image: url(images/work.jpg);
+    margin-left: 70px;
+    padding: 40px;
+    transition: 1s;
+    background-size: 100%;
+    margin-top: 100px;
+    position: absolute;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.Working:hover {
+    background-size: 110%;
+}
+
+.Working2 {
+    width: 300px;
+    height: 150px;
+    background-image: url(images/work2.jpg);
+    margin-left: 520px;
+    padding: 40px;
+    transition: 1s;
+    background-size: 100%;
+    margin-top: 100px;   
+    position: absolute;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.Working2:hover {
+    background-size: 110%;
+}
+
+.Working3 {
+    width: 300px;
+    height: 150px;
+    background-image: url(images/work3.jpg);
+    margin-left: 970px;
+    padding: 40px;
+    transition: 1s;
+    background-size: 100%;
+    margin-top: 100px;   
+    position: absolute;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.Working3:hover {
+    background-size: 110%;
+}
+
+p{
+    text-align: center;
+    margin-top: 50px;
+    font-weight: bold;
+    font-size: 22px;
+    color: white;
+    cursor: pointer;
+}
+
+.link{
+    text-decoration: none;
+}

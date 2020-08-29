@@ -1,0 +1,11 @@
+.tra {
+    font-size: 30px;
+    margin-left: 30px;
+    bottom: 94%;
+    position:absolute;
+    cursor: pointer;
+    z-index: 2;
+    position: fixed;
+    color: white;
+}
+

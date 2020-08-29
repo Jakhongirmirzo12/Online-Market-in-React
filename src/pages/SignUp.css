@@ -1,0 +1,79 @@
+.SignUp {
+    margin-top: 70px;
+}
+
+.s {
+    text-align: center;
+}
+
+.Username {
+    width: 360px;
+    height: 40px;
+    margin-left: 96vh;
+    border-radius: 4px;
+}
+
+.Password {
+    width: 360px;
+    height: 40px;
+    margin-left: 96vh;
+    border-radius: 4px;
+}
+
+.User {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-right: 140px;
+}
+
+.Pass {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-right: 140px;
+}
+
+.text {
+    width: 100%;
+    height: 100%;
+    border-radius: 6px;
+    border: 2px solid #053030;
+    outline: none;
+    font-size: 18px;
+}
+.Pass1 {
+    width: 100%;
+    height: 100%;
+    border-radius: 6px;
+    border: 2px solid #053030;
+    outline: none;
+    font-size: 18px;
+}
+
+.but {
+    width: 100px;
+    height: 50px;
+    margin-top: 20px;
+    margin-left: 98vh;
+    border-radius: 10px;
+    border: 2px solid black;
+    outline: none;
+    cursor: pointer;
+    background-color: aqua;
+    
+}
+
+.but:hover, .but:active {
+    transform: translateX(2px);
+    background-color: rgb(61, 190, 190);
+    border: 2px solid rgb(61, 212, 212);
+}
+
+.reg {
+    margin-left: 25px;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+}
+
